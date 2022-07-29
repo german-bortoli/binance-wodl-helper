@@ -21,6 +21,7 @@ function App() {
     <div className="App">
       <h1>BINANCE WODL HELPER</h1>
       <p>Search potential crypto words to play WODL</p>
+      <p>Type the word length</p>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
